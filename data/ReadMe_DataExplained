@@ -1,0 +1,26 @@
+
+
+
+#*******************************************
+FIREbox_Galaxy_HostVSate.csv
+
+This dataframe was create to look at the separation between hosts and satellites
+For each galaxy, there are parameters reported in physical units
+For Satellite galaxies the distance to the host is reported along with other comparisons to the host
+For host galaxies the distance to the nearest satellite along othe other comparisons to that satellite
+
+
+#*******************************************
+FIREbox_Group_satellite_distances.csv
+
+This dataframe was created to look at the separation between satellites in a group
+I look at each group, and I report the separation between each galaxy in that group
+I also report the mass ratio and I flag the nearest neighbor for each galaxy
+
+
+#*******************************************
+FIREbox_distance_nearestneighbor.csv
+
+This data frame was created to determine the closes neighbor to each galaxy
+This was created by using FIREbox_Galaxy_HostVSate & FIREbox_Group_satellite_distances
+For each galaxy I found the nearest neighbor and report values coresponding 
